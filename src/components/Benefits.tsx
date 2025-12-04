@@ -1,6 +1,6 @@
 import { Check, Sparkles } from "lucide-react";
-import useScrollAnimation from "@/hooks/useScrollAnimation";
-import { cn } from "@/lib/utils";
+import useScrollAnimation from "../hooks/useScrollAnimation";
+import { cn } from "../lib/utils";
 
 const benefits = [
   "Convierte tus ideas en videos de alta calidad",
