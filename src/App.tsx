@@ -17,7 +17,6 @@ export default function App() {
         <Route path="/curso-video-ia" element={<CursoVideoIA />} />
         <Route path="/curso-video-ia/modul-1" element={<Modul1 />} />
         <Route path="/curso-video-ia/modul-2" element={<Modul2 />} />
-        {/* Dynamic lesson route: /curso-video-ia/:module/:lesson */}
         <Route path="/curso-video-ia/:module/:lesson" element={<LessonGeneric />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
